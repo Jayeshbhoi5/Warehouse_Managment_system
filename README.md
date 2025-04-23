@@ -53,13 +53,13 @@ The WMS platform provides tools for real-time tracking, storage optimization, an
 <h2>📷 Screenshots</h2>
 
 <h3>Registration Page</h3>
-<img src="images/WMS_Registration_page.png" alt="WMS Registration Page" width="600" />
+<img src="WMS_SCREENSHOT/WMS_Registration_page.png" alt="WMS Registration Page" width="600" />
 
 <h3>Dashboard</h3>
-<img src="images/WMS_Dashboard.png" alt="WMS Dashboard" width="600" />
+<img src="WMS_SCREENSHOT/WMS_Dashboard.png" alt="WMS Dashboard" width="600" />
 
 <h3>Inventory Management</h3>
-<img src="images/WMS_Inventory.png" alt="WMS Inventory" width="600" />
+<img src="WMS_SCREENSHOT/WMS_Inventory.png" alt="WMS Inventory" width="600" />
 
 
 
