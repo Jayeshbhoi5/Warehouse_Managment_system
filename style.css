@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('path-to-image.png') no-repeat center center fixed; /* Use your uploaded image */
+    background-size: cover;
+    position: relative;
+    height: 100vh; /* Ensures the body fills the viewport height */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('1img.jpg') no-repeat center center fixed; /* Path to your image */
+    background-size: cover;
+    opacity: 0.5; /* Adjust this value to make the image duller (0.1-0.9 range) */
+    z-index: -1; /* Ensures the image stays in the background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    background: rgba(248, 248, 248, 0.8); /* Light background */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 19px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px; /* Width of the login box */
+    height: 420px; /* Increased height for the login box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 45px; /* Increased margin for more spacing */
+}
+
+.input-box input {
+    width: 100%; /* Full width of the container */
+    padding: 15px; /* Increased padding for bigger input boxes */
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+    color: #666;
+}
+
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 12px;
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 15px; /* Increased padding for larger button */
+    border: none;
+    cursor: pointer;
+    width: 100%; /* Full width of the button */
+    font-size: 18px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+p {
+    margin-top: 20px;
+}
