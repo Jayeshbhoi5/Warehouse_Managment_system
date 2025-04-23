@@ -1,2 +1,4 @@
-# Innovative_Teaching_Feedback
-The Innovative Teaching Feedback System allows faculty to upload class activities with details like title, media, and course info, while students provide feedback through ratings and comments. With separate dashboards for students and faculty, it enhances engagement, improves teaching quality, and fosters interactive learning. 
+# Warehouse_Management_System
+🚀 Warehouse Management System built using HTML, CSS, JS, PHP, and MySQL. Includes features for inventory tracking, product management, real-time updates, user login/registration, and dashboard with analytics. Designed for efficient warehouse operations.
+
+ 
